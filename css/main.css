@@ -1,0 +1,55 @@
+.bg-darke {
+  background-color: #000;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+}
+
+.navstyle {
+  margin-left: auto;
+}
+
+.nav-link {
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+}
+
+.carousel {}
+
+.max-height {
+  max-height: 450px;
+}
+
+.carousel-item-text {
+  text-align: center;
+}
+
+.Our-Services-container {
+  background-color: #cfc;
+  color: #000;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+}
+
+.card {
+  padding: 0;
+}
+
+.Our-Services-card {
+  margin: 5px;
+  ;
+  color: #000;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+  text-align: center;
+}
+
+.card-image {
+  display: block;
+  margin: auto;
+}
