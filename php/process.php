@@ -28,6 +28,6 @@ $success = mail($EmailTo, $Subject, $Body,$email);
 if ($success){
    echo "success";
 }else{
-    echo "invalid";
+    echo "test";
 }
 ?>
