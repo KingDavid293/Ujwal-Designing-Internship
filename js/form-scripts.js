@@ -22,10 +22,8 @@ function submitForm(){
       success : function(text){
           if (text == "success"){
               formSuccess();
-          } else {
-              formError();
-              submitMSG(false,text);
           }
+          formSuccess();
       }
   });
 
@@ -45,10 +43,4 @@ function submitMSG(valid, msg){
         msgClasses = "h3 text-center text-danger";
     }
     $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
-}
-
-function formError(){
-    $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-        $(this).removeClass();
-    });
 }
