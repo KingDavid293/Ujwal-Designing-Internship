@@ -12,7 +12,6 @@ $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
 
-
 $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
@@ -21,8 +20,9 @@ $Body .= "Name: ";
 $Body .= $name;
 $Body .= "\n";
 
+
 // send email
-$success = mail($EmailTo, $Subject, $Body);
+$success = mail($EmailTo, $Subject, $Body,$email);
 
 // redirect to success page
 if ($success){
