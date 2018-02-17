@@ -22,8 +22,9 @@ function submitForm(){
         }
     });
 
-    console.log("form submit sent");
+
 }
 function formSuccess(){
+  console.log("form submit sent");
     $( "#msgSubmit" ).removeClass( "d-none" );
 }
