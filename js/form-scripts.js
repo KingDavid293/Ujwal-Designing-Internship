@@ -12,8 +12,8 @@ function submitForm(){
     var message = $("#message").val();
 
     $.ajax({
-        type: "POST",
-        url: "php/ContactUs.php",
+        type: 'POST',
+        url: "php/process.php",
         data: "name=" + name + "&email=" + email + "&message=" + message,
         success : function(text){
             if (text == "success"){
@@ -21,6 +21,8 @@ function submitForm(){
             }
         }
     });
+
+    console.log("form submit sent");
 }
 function formSuccess(){
     $( "#msgSubmit" ).removeClass( "d-none" );

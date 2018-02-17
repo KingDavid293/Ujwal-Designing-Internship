@@ -79,13 +79,13 @@ body {
   width: 100%;
   margin: 0px;
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .Chefs-card-container {
   padding: 5px;
   color: #000;
-  max-width: 60%;
   display: block;
   margin: auto;
 }

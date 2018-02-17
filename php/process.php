@@ -28,5 +28,4 @@ if ($success){
 }else{
     echo "invalid";
 }
-
 ?>
