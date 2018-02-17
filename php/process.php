@@ -7,16 +7,18 @@ $EmailTo = "arundavid3x3x3@gmail.com";
 $Subject = "New Message Received";
 
 // prepare email body text
-$Body .= "Name: ";
-$Body .= $name;
-$Body .= "\n";
 
 $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
 
+
 $Body .= "Message: ";
 $Body .= $message;
+$Body .= "\n";
+
+$Body .= "Name: ";
+$Body .= $name;
 $Body .= "\n";
 
 // send email
